@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOSIMILO LERATO DLAMINI | Portfolio</title>
+<meta name="description" content="Portfolio of NOSIMILO LERATO DLAMINI- projects, skills and contact details.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d17;--card:#141828;--text:#e8eaf6;--muted:#9aa0bd;--a:#7c5cff;--b:#00d4ff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:-20%;background:radial-gradient(600px 400px at 20% 10%,#7c5cff33,transparent),radial-gradient(500px 400px at 85% 30%,#00d4ff22,transparent);z-index:-1;animation:float 14s ease-in-out infinite alternate}
+@keyframes float{to{transform:translate(30px,40px)}}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;backdrop-filter:blur(12px);background:#0b0d17cc;z-index:10;border-bottom:1px solid #ffffff12}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:.95rem}
+nav a:hover{color:var(--text)}
+.logo{font-weight:700;color:var(--text)!important;margin:0!important}
+.hero{padding:110px 0 80px}
+.hero small{color:var(--b);letter-spacing:.15em;text-transform:uppercase;font-size:.8rem}
+.hero h1{font-size:clamp(2.4rem,8vw,4.6rem);line-height:1.05;margin:14px 0 18px}
+.grad{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:560px;font-size:1.1rem}
+.btns{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:500;transition:.25s}
+.primary{background:linear-gradient(90deg,var(--a),var(--b));color:#fff}
+.primary:hover{transform:translateY(-3px);box-shadow:0 10px 30px #7c5cff55}
+.ghost{border:1px solid #ffffff30;color:var(--text)}
+.ghost:hover{border-color:var(--b);color:var(--b)}
+section{padding:70px 0}
+h2{font-size:2rem;margin-bottom:30px}
+h2 span{color:var(--b)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid #ffffff10;border-radius:18px;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-8px);border-color:var(--a);box-shadow:0 16px 40px #7c5cff30}
+.shot{height:170px;background:linear-gradient(135deg,var(--a),var(--b));display:flex;align-items:center;justify-content:center;font-size:.9rem;color:#fff;opacity:.9}
+.shot img{width:100%;height:100%;object-fit:cover}
+.body{padding:20px}
+.body h3{margin-bottom:6px}
+.body p{color:var(--muted);font-size:.95rem}
+.tags{margin:14px 0;display:flex;flex-wrap:wrap;gap:8px}
+.tags span{font-size:.75rem;padding:4px 10px;border-radius:999px;background:#7c5cff22;color:#b9a8ff}
+.links a{color:var(--b);text-decoration:none;font-size:.9rem;margin-right:16px}
+.links a:hover{text-decoration:underline}
+.skills{display:flex;flex-wrap:wrap;gap:12px}
+.skills span{padding:10px 18px;border-radius:12px;background:var(--card);border:1px solid #ffffff12;transition:.25s}
+.skills span:hover{border-color:var(--b);transform:translateY(-3px)}
+.contact{text-align:center}
+.contact p{color:var(--muted);margin-bottom:24px}
+footer{text-align:center;color:var(--muted);padding:30px;font-size:.85rem;border-top:1px solid #ffffff10}
+.reveal{opacity:0;transform:translateY(24px);transition:.7s}
+.reveal.show{opacity:1;transform:none}
+</style>
+</head>
+<body>
+ 
+<nav><div class="wrap">
+  <a class="logo" href="#top">NOSIMILO LERATO DLAMINI</a>
+  <div><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</div></nav>
+ 
+<header class="hero" id="top"><div class="wrap">
+  <small>Hello, I'm Nosimilo Lerato Dlamini</small>
+  <h1>NOSIMILO LERATO DLAMINI<br><span class="grad">INFORMATION TECHNOLOGY STUDENT</span></h1>
+  
+  <p>I am an IT student at Limkokwing University in Eswatini, developing my skills in web development, databases, networking and troubleshooting.</p>
+  <div class="btns">
+    <a class="btn primary" href="#projects">View My Projects</a>
+    <a class="btn ghost" href="mailto:nosimilodlamini08@gmail.com">Contact me</a>
+  </div>
+</div></header>
+ 
+<section id="projects"><div class="wrap">
+  <h2>Featured <span>Projects</span></h2>
+  <div class="grid">
+ 
+    <!-- PROJECT 1 (your strongest). To add a screenshot, replace the text inside .shot with: <img src="project1.png" alt="Project 1"> -->
+    <article class="card reveal">
+      <div class="shot">Project 1 screenshot</div>
+      <div class="body">
+        <h3>iShop</h3>
+        <p>iShop is an e-commerce website I developed using sublime text. The website showcases laptops and other computer hardware devices, providing users
+with an online platform to explore available products</p>
+        <div class="tags"><span>PHP</span><span>HTML/CSS</span></div>
+        <div class="links">
+        <a href="#">Live demo</a>
+        <a href="#">Source code</a></div>
+      </div>
+    </article>
+ 
+    <article class="card reveal">
+      <div class="shot">Project 2 screenshot</div>
+      <div class="body">
+        <h3>Bling car rental</h3>
+        <p>Bling car rental is a website project designed to showcase car rental services and provide customers with information about available
+vehicles and rental options. This project helped me develop my website design and development skills</p>
+        <div class="tags"><span>Java</span><span>Netbeans</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Source code</a></div>
+      </div>
+    </article>
+ 
+    <article class="card reveal">
+      <div class="shot">Project 3 screenshot</div>
+      <div class="body">
+        <h3>EzyRide-Digital Payment System</h3>
+        <p>EzyRide is a digital payment project designed to make paying for kombi transportation more convenient. The project explores
+how technology can support cashless payments in public transport and improve the passenger payment experience.</p>
+        <div class="tags"><span>Digital Payments</span><span>PHP</span></div>
+        <div class="links"><a href="#">Details</a></div>
+      </div>
+    </article>
+ 
+  </div>
+</div></section>
+ 
+<section id="skills"><div class="wrap">
+  <h2>My <span>Skills</span></h2>
+  <div class="skills reveal">
+    <span>HTML &amp; CSS</span><span>PHP</span><span>MySQL</span><span>Networking</span><span>Netbeans</span><span>Proble Solving</span>
+  <span>Teamwork</span></div>
+</div></section>
+ 
+<section id="contact" class="contact"><div class="wrap">
+  <h2>Let's <span>work together</span></h2>
+  <p>I'm open to jobs and internships. Send me a message.</p>
+  <div class="btns" style="justify-content:center">
+    <a class="btn primary" href="mailto:nosimilodlamini08@gmail.com">nosimilodlamini08@gmail.com</a>
+    <a class="btn ghost" href="https://github.com/Dlamini">GitHub</a>
+    <a class="btn ghost" href="https://linkedin.com/in/yNosimilo Lerato">LinkedIn</a>
+  </div>
+</div></section>
+ 
+<footer>&copy; 2026 NOSIMILO LERATO DLAMINI</footer>
+ 
+<script>
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('show')}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
