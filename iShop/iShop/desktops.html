@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>iShop - Desktops</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        .product-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(25% - 30px); /* Adjust width for four items in a row */
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+        }
+        .product-item p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 14px;
+            color: #fff;
+            background: #28a745;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .add-to-cart:hover {
+            background: #218838;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .product-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div class="container">
+                <header id="header">
+                    <div class="inner">
+                        <h1><a href="homepage.html" id="logo">iShop</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="homepage.html">Home</a></li>
+                                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+                                <li><a href="blog.html">Blog/News</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contactus.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!-- Desktops Section -->
+        <div id="main-wrapper">
+            <div class="wrapper style1">
+                <div class="inner">
+
+                    <section class="container box feature1">
+                        <h2>Desktops</h2>
+
+                        <div class="product-row">
+                            <div class="product-item">
+                                <img src="images/desktopoptiplex1.jpg" alt="Desktop 1">
+                                <h3>Dell OptiPlex 3080</h3>
+                                <p>Intel i5, 8GB RAM, 256GB SSD</p>
+                                <p><strong>Price: E6,999.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/HPEliteDesk.jpg" alt="Desktop 2">
+                                <h3>HP EliteDesk 800</h3>
+                                <p>Intel i7, 16GB RAM, 512GB SSD</p>
+                                <p><strong>Price: E9,499.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/LenovoThinkCentre1.jpeg" alt="Desktop 3">
+                                <h3>Lenovo ThinkCentre</h3>
+                                <p>Ryzen 5, 8GB RAM, 1TB HDD</p>
+                                <p><strong>Price: E7,499.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/AppleiMac2411.jpg" alt="Desktop 4">
+                                <h3>Apple iMac 24"</h3>
+                                <p>M1 Chip, 8GB RAM, 256GB SSD</p>
+                                <p><strong>Price: E22,999.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>

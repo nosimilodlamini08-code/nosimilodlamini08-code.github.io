@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>iShop - Cart</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Container to wrap all content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto; 
+            padding: 20px;
+        }
+
+        /* Product Section */
+        .product-section {
+            margin-bottom: 3em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 30%;
+            margin-right: 2%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .product-section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+            border-radius: 5px;
+        }
+
+        /* Adjust laptop image size */
+        .product-section.laptop img {
+            width: 60%; 
+            margin: 0 auto;
+            display: block;
+        }
+
+        /* Table for displaying product details */
+        .product-table {
+            width: 100%;
+            margin: 3em auto; 
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .product-table th, .product-table td {
+            border: 1px solid #ddd;
+            padding: 12px; 
+            text-align: center;
+        }
+
+        .product-table th {
+            background-color: #f4f4f4;
+        }
+
+        /* Button styles */
+        .button-container {
+            margin-top: 2em;
+            text-align: center; 
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 18px;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+            background: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body class="products-page">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div class="container">
+                <header id="header">
+                    <div class="inner">
+                        <h1><a href="index.html" id="logo">iShop</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="homepage.html">Home</a></li>
+                                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+                                <li><a href="blog.html">Blog/News</a></li>
+                                <li><a href="about.html">About Us</a></li> 
+                                <li><a href="contactus.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-wrapper">
+            <div class="wrapper style1">
+                <div class="container">
+                    <header class="major" style="text-align: center;">
+                        <h2>Your Cart</h2>
+                        <p>Browse your extensive collection of tech products.</p>
+                    </header>
+
+                    <!-- Product Table -->
+                    <table class="product-table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Specifications</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product-section laptop">
+                                        <img src="images/Laptop.jpg" alt="Laptop Image">
+                                        <p>Laptop</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none; padding: 0;">
+                                        <li>Intel Core i7</li>
+                                        <li>16GB RAM</li>
+                                        <li>512GB SSD</li>
+                                        <li>15.6" Full HD Display</li>
+                                    </ul>
+                                </td>
+                                <td>E2999.00</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product-section">
+                                        <img src="images/Component.jpg" alt="Laptop Image">
+                                        <p>Component</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none; padding: 0;">
+                                        <li>AMD Ryzen 5</li>
+                                        <li>NVIDIA GTX 1660</li>
+                                        <li>1TB HDD</li>
+                                    </ul>
+                                </td>
+                                <td>E399.00</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product-section">
+                                        <img src="images/Desktop.jpg" alt="Laptop Image">
+                                        <p>Desktop</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none; padding: 0;">
+                                        <li>Dell Screen</li>
+                                        <li>Supports HDMI</li>
+                                        <li>Supports VGA</li>
+                                        
+                                    </ul>
+                                </td>
+                                <td>E1999.00</td>
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>iShop - Contact Us</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Custom CSS to center the content */
+        .container {
+            width: 80%; /* Adjust width as necessary */
+            max-width: 1200px; /* Maximum width */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 20px; /* Add some padding */
+        }
+        .wrapper.style1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+        }
+        .inner {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="contact-page">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div class="container">
+                <header id="header">
+                    <div class="inner">
+                        <h1><a href="homepage.html" id="logo">iShop</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="homepage.html">Home</a></li>
+                                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+                                <li><a href="blog.html">Blog/News</a></li>
+                                <li><a href="about.html">About Us</a></li> 
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-wrapper">
+            <div class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>Contact Us</h2>
+                        <p>We would love to hear from you. Fill out the form below to get in touch or sign up for updates.</p>
+                    </header>
+
+                    <!-- Contact Form -->
+                    <section class="box">
+                        <form method="post" action="#">
+                            <div class="row gtr-50">
+                                <div class="col-6 col-12-medium">
+                                    <input type="text" name="name" id="name" placeholder="Your Name" required />
+                                </div>
+                                <div class="col-6 col-12-medium">
+                                    <input type="email" name="email" id="email" placeholder="Your Email" required />
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Your Message" rows="6" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <input type="submit" value="Send Message" class="button primary" />
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                    <br>
+
+                    <!-- Signup Form -->
+                    <section class="box">
+                        <header>
+                            <h3>Sign Up for Updates</h3>
+                            <p>Stay informed about new products and exclusive offers.</p>
+                        </header>
+                        <form method="post" action="#">
+                            <div class="row gtr-50">
+                                <div class="col-8 col-12-medium">
+                                    <input type="email" name="signup-email" id="signup-email" placeholder="Your Email" required />
+                                </div>
+                                <div class="col-4 col-12-medium">
+                                    <input type="submit" value="Subscribe" class="button primary" />
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

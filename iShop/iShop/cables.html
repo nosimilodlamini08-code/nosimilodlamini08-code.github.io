@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>iShop - Computer Cables</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        .product-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(25% - 30px); /* Adjust width for four items in a row */
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+        }
+        .product-item p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 14px;
+            color: #fff;
+            background: #28a745;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .add-to-cart:hover {
+            background: #218838;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .product-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div class="container">
+                <header id="header">
+                    <div class="inner">
+                        <h1><a href="index.html" id="logo">iShop</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+                                <li><a href="blog.html">Blog/News</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contactus.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!-- Cables Section -->
+        <div id="main-wrapper">
+            <div class="wrapper style1">
+                <div class="inner">
+
+                    <section class="container box feature1">
+                        <h2>Computer Cables</h2>
+
+                        <div class="product-row">
+                            <div class="product-item">
+                                <img src="images/HDMICable.jpg" alt="HDMI Cable">
+                                <h3>HDMI Cable</h3>
+                                <p>High-speed 4K HDMI cable, 1.5 meters</p>
+                                <p><strong>Price: E199.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/USB.jpg" alt="USB Cable">
+                                <h3>USB 3.0 Cable</h3>
+                                <p>Fast data transfer, 1 meter</p>
+                                <p><strong>Price: E99.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/EthernetCable.jpg" alt="Ethernet Cable">
+                                <h3>Ethernet Cable</h3>
+                                <p>Cat6, 5 meters</p>
+                                <p><strong>Price: E299.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                            <div class="product-item">
+                                <img src="images/VGACable.jpg" alt="VGA Cable">
+                                <h3>VGA Cable</h3>
+                                <p>1.5 meters, high-quality video output</p>
+                                <p><strong>Price: E149.00</strong></p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+</body>
+</html>
